@@ -32,7 +32,7 @@ const Home = () => {
                     <img src="https://www.gsma.com/newsroom/wp-content/uploads//Korean-Mobile-IoT.jpg" className="d-block w-100" alt="korea" height="950" style={{opacity: 0.6}} />
                     <div className="carousel-caption d-none d-md-block carousel-box">
                         <h3>안녕하세요 월드</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p>진심을 다해 웹 개발에 매진하고 있는 강입니다</p>
                     </div>
                 </div>
 

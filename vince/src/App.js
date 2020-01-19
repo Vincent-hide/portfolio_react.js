@@ -7,6 +7,7 @@ import Navbar from './components/header/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Mobi from './components/pages/Mobi';
+import Contact from './components/footer/Contact';
 
 function App() {
   return (
@@ -26,11 +27,11 @@ function App() {
             <Home />
             <Mobi />
           </Route>
-          {/* <Route path="/" component={Mobi} /> */}
 
           <Route path="/about" component={About} />
         </Switch>
 
+        <Contact />  
       </div>
     </Router>
   );
@@ -38,14 +39,3 @@ function App() {
 
 export default App;
 
-// for image
-// https://wall.alphacoders.com/by_sub_category.php?id=202537&name=Tokyo+Wallpapers
-
-// React BS
-// https://react-bootstrap.github.io/
-
-// Styled Components
-// https://styled-components.com/
-
-// React - BS
-// https://youtu.be/tOK9l5uP06U
