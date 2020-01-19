@@ -52,13 +52,11 @@
 }
 
 .main-container {
-  /* background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("https://www.thetopvillas.com/blog/wp-content/uploads/2017/02/Best-beaches-in-Barbados-1140x760.jpg"); */
   background:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.thetopvillas.com/blog/wp-content/uploads/2017/02/Best-beaches-in-Barbados-1140x760.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 @media (max-width: 600px) {
@@ -71,10 +69,25 @@
   }
 }
 
-/* REVIEW Mobi */
+/* REVIEW Mobi1 */
 #mobi-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+}
+
+#mobi-container > img {
+  flex: 1;
+  transition: .3s;
+}
+
+#mobi-container > div {
+  flex: 1.8;
+  padding: 2rem;
+  transition: .3s;
+}
+
+#mobi-container > img:hover, 
+#mobi-container > div:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #myName {
@@ -87,14 +100,32 @@
 }
 
 @media (max-width: 1000px) {
-  #mobi-container {
-    display: block;
-    margin: 0 auto;
+  #mobi-container, #mobi2-container {
+    flex-direction: column;
   }
 }
 
-/* REVIEW  Footer */
+/* REVIEW Mobi2 */
+#mobi2-container {
+  display: flex;
+}
 
+#mobi2-container > div {
+  flex: 1;
+  padding: 2rem;
+  margin-right: .8rem;
+}
+
+#mobi2-container > img {
+  flex: 1.7;
+}
+
+#mobi2-container > img:hover, 
+#mobi2-container > div:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* REVIEW  Footer */
 #footer_box {
   background: linear-gradient(to right, rgba(241, 140, 6, 0.5), rgba(21, 101, 192, .5))
 }
