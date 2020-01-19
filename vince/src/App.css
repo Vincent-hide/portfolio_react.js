@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#suho {
+  user-select: none;
+}
+
+.lang-card {
+  background: #c0c0c0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 50px;
+}
+
+.lang-card:nth-child(even) > img {
+  order: 2;
+}
+
+.lang-card > div {
+  padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .lang-card {
+    display: block;
+  }
+}
+
+.lang-header, lang-card {
+  font-family: 'Roboto', sans-serif;
+}
+
+.lang-header {
+  color: deepskyblue;
+  transition: 1s;
+  padding: 30px;
+}
+
+.lang-header:hover {
+  text-shadow: 0 0 10px deepskyblue;
+  box-shadow: 0 10px 20px deepskyblue;
+}
+
+.carousel-box {
+  background: rgba(4, 163, 236, 0.75);
+}
+
+.carousel-item > img {
+  width: 100vw;
+  height: 80vh;
+}
+
+.main-container {
+  background-image: url("https://www.thetopvillas.com/blog/wp-content/uploads/2017/02/Best-beaches-in-Barbados-1140x760.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
