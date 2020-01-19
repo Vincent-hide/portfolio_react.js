@@ -27,7 +27,7 @@ const About = () => {
                     <img src={djangoImg} alt="django"/>
                     <div>
                         <h3>Python / Django</h3>
-                        <p>I have built a web application using Django. In this application, user can take a survey and submit the result to the database, SQLite. And the results of survey can be seen.</p>
+                        <p>I have built a web application using Django. In this application, user can take a survey and submit the result to the database, SQLite. And the results of the survey can be seen.</p>
                     </div>
                 </section>
 
@@ -35,7 +35,7 @@ const About = () => {
                     <img src={laravelImg} alt="laravel"/>
                     <div>
                         <h3>PHP / Laravel</h3>
-                        <p>I have created web applictions using PHP and Laravel. On one of the web applications that I created in laravel, user can sign up and create an account. And user may post a blog.</p>
+                        <p>I have created web applictions using PHP and Laravel. On one of the web applications that I created in laravel, user can sign up and create an account. And user may post a blog that may be seen by other members or guests.</p>
                     </div>
                 </section>
 
@@ -59,7 +59,7 @@ const About = () => {
                     <img src={javaImg} alt="java"/>
                     <div>
                         <h3>Java</h3>
-                        <p>I used Java for programming competition called IEEEXtream.</p>
+                        <p>I used Java for a programming competition called IEEEXtream.</p>
                     </div>
                 </section>
 
@@ -67,7 +67,7 @@ const About = () => {
                     <img src={sqlImg} alt="java"/>
                     <div>
                         <h3>MySQL / Oracle SQL / SQLite</h3>
-                        <p>In my web applications, I have used such Database.</p>
+                        <p>In my web applications, I have used such Database to retrieve data from and send data to.</p>
                     </div>
                 </section>
             </div>

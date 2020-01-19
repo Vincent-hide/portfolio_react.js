@@ -1,0 +1,34 @@
+// TODO 
+// Route
+$ npm install --save react-router-dom
+
+// React - BS
+$ npm install --save styled-components
+
+// netlify
+$ npm install netlify-cli -g
+$ netlify deploy
+
+// build application
+$ npm run build
+
+// adding serve
+$ npm global add serve
+
+// NOTE 
+// for image
+// https://wall.alphacoders.com/by_sub_category.php?id=202537&name=Tokyo+Wallpapers
+
+// React BS
+// https://react-bootstrap.github.io/
+
+// Styled Components
+// https://styled-components.com/
+
+// React - BS
+// https://youtu.be/tOK9l5uP06U
+
+
+// linear-gradient
+// https://uigradients.com/#JShine
+// ex) background:linear-gradient(to right, #12c2e9, #c471ed, #f64f59)
