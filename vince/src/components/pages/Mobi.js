@@ -14,7 +14,7 @@ const Mobi = () => {
                 <div data-aos="fade-up">
                     <p>Hello. I am Kang Suho. Thank you for viewing my portfolio. I am a Korean who was born and raised in Japan. I am capable of speaking Japanese, English and Koran.</p>
                     <p>I started studying programming back in 2019 in T127 Computer Programming Analyst Program at George Brown College. Since then, I have been exceedingly passionate about Web Development and Application Development.</p>
-                    <p>I have competed in the IEEEXtream13.0 programming competition and our team placed in the top of placed in the top 18% in the world.</p>
+                    <p>I have competed in the IEEEXtream13.0 programming competition and our team placed in the top 18% in the world.</p>
                 </div>
             </div>
 
