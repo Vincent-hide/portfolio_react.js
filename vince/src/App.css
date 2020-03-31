@@ -76,13 +76,13 @@
 
 #mobi-container > img {
   flex: 1;
-  transition: .3s;
+  /* transition: .3s; */
 }
 
 #mobi-container > div {
   flex: 1.8;
   padding: 2rem;
-  transition: .3s;
+  /* transition: .3s; */
 }
 
 #mobi-container > img:hover, 
